@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "accessibility": "docker run --rm -p 5173:5173 --shm-size=1g -e TARGET_URL=\"http://localhost:5173\" -e SERVICE_ID=\"elearning56285\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",

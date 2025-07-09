@@ -32,12 +32,12 @@ import FullstackQuiz from "./Components/Quiz/FullstackQuiz";
 import JavascriptQuiz from "./Components/Quiz/JavascriptQuiz";
 import ReactQuiz from "./Components/Quiz/ReactQuiz";
 import Profile from "./Components/Pages/Profile";
-import { useAuth0 } from "@auth0/auth0-react";
-import Feedback from "./Components/Pages/Feedback";
+// import { useAuth0 } from "@auth0/auth0-react";
+// import Feedback from "./Components/Pages/Feedback";
 import FeedbackAll from "./Components/Pages/FeedbackAll";
 
 function App() {
-  const { loginWithRedirect } = useAuth0();
+  // const { loginWithRedirect } = useAuth0();
   return (
     <>
       <BrowserRouter>
@@ -49,12 +49,12 @@ function App() {
           <Route path="/testimonial" element={<Testimonial1 />} />
           <Route path="/contact" element={<Contact1 />} />
           <Route path="/error" element={<ErrorPage />} />
-          <Route
+          {/* <Route
             path="/signin"
             render={() => {
-              loginWithRedirect();
+              // loginWithRedirect();
             }}
-          />
+          /> */}
           <Route path="/register" element={<SignUp />} />
           <Route path="/profile" element={<Profile />} />
 

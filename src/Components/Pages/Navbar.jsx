@@ -1,11 +1,11 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 import Spinner from "./Spinner";
 
 export default function Navbar() {
-  const { user, isAuthenticated, isLoading, logout, loginWithRedirect } =
-    useAuth0();
+  // const { user, isAuthenticated, isLoading, logout, loginWithRedirect } =
+  //   useAuth0();
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
@@ -90,7 +90,7 @@ export default function Navbar() {
             </NavLink>
           </div>
 
-          {isLoading && <Spinner />}
+          {/* {isLoading && <Spinner />}
 
           {isAuthenticated && (
             <NavLink
@@ -117,7 +117,7 @@ export default function Navbar() {
             >
               Join Now<i className="fa fa-arrow-right ms-3"></i>
             </button>
-          )}
+          )} */}
         </div>
       </nav>
     </>
