@@ -24,7 +24,8 @@ jobs:
           http-server ./build -p 8080 &  
           sleep 5
       - name: Evaluate accessibility
-        uses: trongduc2206/accessibility-hub-runner@d1bdb4fb894a04d100af01b3ad239226008fd93e
+        # uses: trongduc2206/accessibility-hub-runner@d1bdb4fb894a04d100af01b3ad239226008fd93e
+        uses: trongduc2206/accessibility-hub-runner@c5c33d5e264f4554444642ea89cfa9a3ba52f6e5
         with:
           url: 'http://localhost:8080'
           service_id: 'elearning56285'
