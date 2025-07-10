@@ -29,7 +29,8 @@ jobs:
       #     sleep 5
       - name: Evaluate accessibility
         # uses: trongduc2206/accessibility-hub-runner@d1bdb4fb894a04d100af01b3ad239226008fd93e
-        uses: trongduc2206/accessibility-hub-runner@513db0517ba801973b543f44f6d242cc926f0650
+        # uses: trongduc2206/accessibility-hub-runner@513db0517ba801973b543f44f6d242cc926f0650
+        uses: trongduc2206/accessibility-hub-runner@2c20526390447fd8026272d9e37561cc76373950
         with:
           url: 'http://localhost:4173'
           service_id: 'elearning56285'
