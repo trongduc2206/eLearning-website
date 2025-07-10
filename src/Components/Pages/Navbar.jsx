@@ -22,6 +22,7 @@ export default function Navbar() {
           className="navbar-toggler me-4"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
+          aria-label="toggle-navigation"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
