@@ -17,17 +17,21 @@ jobs:
         run: npm install
       - name: Build app
         run: npm run build
-      - name: Install HTTP Server
-        run: npm install -g http-server
-      - name: Start Local Server
+      - name: Start app
         run: |
-          http-server ./dist -p 8080 &  
+          npm run preview &
           sleep 5
+      # - name: Install HTTP Server
+      #   run: npm install -g http-server
+      # - name: Start Local Server
+      #   run: |
+      #     http-server ./dist -p 8080 &  
+      #     sleep 5
       - name: Evaluate accessibility
         # uses: trongduc2206/accessibility-hub-runner@d1bdb4fb894a04d100af01b3ad239226008fd93e
         uses: trongduc2206/accessibility-hub-runner@513db0517ba801973b543f44f6d242cc926f0650
         with:
-          url: 'http://localhost:8080'
+          url: 'http://localhost:4173'
           service_id: 'elearning56285'
           tools: 'axe'
       - name: Stop Local Server
