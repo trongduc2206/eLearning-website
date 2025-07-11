@@ -35,13 +35,13 @@ export default function Slide() {
                       </p>
                       <Link
                         to=""
-                        className="btn btn-primary py-md-3 px-md-3 me-4 animated slideInLeft z-5"
+                        className="btn btn-dark py-md-3 px-md-3 me-4 animated slideInLeft z-5"
                       >
                         Read More
                       </Link>
                       <Link
                         to="/courses"
-                        className="btn btn-primary py-md-3 px-md-4 animated slideInRight"
+                        className="btn btn-dark py-md-3 px-md-4 animated slideInRight"
                       >
                         Enroll Now
                       </Link>

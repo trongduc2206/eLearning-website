@@ -73,7 +73,7 @@ export default function Cources() {
                       style={{ margin: "1px" }}
                     >
                       <h5 className="m-0">MERN Stack</h5>
-                      <small className="text-primary">4 Courses</small>
+                      <small className="text-dark">4 Courses</small>
                     </div>
                   </Link>
                 </div>
@@ -91,7 +91,7 @@ export default function Cources() {
                       style={{ margin: "1px" }}
                     >
                       <h5 className="m-0">Full Stack Web Devlopment</h5>
-                      <small className="text-primary">8 Courses</small>
+                      <small className="text-dark">8 Courses</small>
                     </div>
                   </Link>
                 </div>
@@ -109,7 +109,7 @@ export default function Cources() {
                       style={{ margin: "1px" }}
                     >
                       <h5 className="m-0">Programming Languages Tutorial</h5>
-                      <small className="text-primary">4 Courses</small>
+                      <small className="text-dark">4 Courses</small>
                     </div>
                   </Link>
                 </div>
@@ -135,7 +135,7 @@ export default function Cources() {
                   style={{ margin: "1px" }}
                 >
                   <h5 className="m-0">Online Marketing</h5>
-                  <small className="text-primary">1 Course</small>
+                  <small className="text-dark">1 Course</small>
                 </div>
               </a>
             </div>
