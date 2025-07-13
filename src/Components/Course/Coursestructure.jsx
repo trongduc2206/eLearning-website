@@ -15,7 +15,7 @@ export default function Coursestructure({data}) {
                         </div>
                     </div>
                     <div className="text-center p-4 pb-0">
-                        <h3 className="mb-0 text-decoration-line-through">{data.price}</h3>
+                        <p className="mb-0 text-decoration-line-through fs-5 fw-bold">{data.price}</p>
                         <div className="mb-3">
                             <small className="fa fa-star text-primary" />
                             <small className="fa fa-star text-primary" />
@@ -24,7 +24,7 @@ export default function Coursestructure({data}) {
                             <small className="fa fa-star text-primary" />
                             <small>{data.review}</small>
                         </div>
-                        <h5 className="mb-4">{data.title}</h5>
+                        <p className="mb-4 fs-5 fw-bold text-dark">{data.title}</p>
                     </div>
                     <div className="d-flex border-top">
                         <small className="flex-fill text-center border-end py-2"><i className="fa fa-user-tie text-primary me-2" />{data.teachername}</small>

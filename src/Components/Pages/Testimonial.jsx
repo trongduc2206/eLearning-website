@@ -7,9 +7,9 @@ export default function Testimonial() {
       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="text-center">
-            <h6 className="section-title bg-white text-center text-primary px-3">
+            <p className="section-title bg-white text-center text-dark px-3 fw-bold">
               Testimonial
-            </h6>
+            </p>
             <h1 className="mb-5">Our Students Say!</h1>
           </div>
 
@@ -22,7 +22,7 @@ export default function Testimonial() {
                   style={{ width: "80px", minHeight: "80px" }}
                   alt="..."
                 />
-                <h5 className="mb-0">Selena </h5>
+                <p className="mb-0 fs-5 fw-bold">Selena</p>
                 <p>Student</p>
                 <div className="testimonial-text bg-light text-center p-4">
                   <p className="mb-0">

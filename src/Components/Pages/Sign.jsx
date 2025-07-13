@@ -10,7 +10,7 @@ export default function Sign() {
             
             <div className=" m-4 ">
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 className="section-title bg-white text-center text-primary px-3">Sign In Page</h6>
+                    <p className="section-title bg-white text-center text-dark px-3">Sign In Page</p>
                     <h1 className="mb-5">Sign In</h1>
                 </div>
                 <div className="singin container" style={{ height: "50vh", minWidth: "70%" }}>

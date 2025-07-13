@@ -8,7 +8,7 @@ export default function Register() {
             <Navbar />
             <div className="m-5" style={{minHeight:"70vh"}}>
                 <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 className="section-title bg-white text-center text-primary px-3">Sign Up Page</h6>
+                    <p className="section-title bg-white text-center text-dark px-3">Sign Up Page</p>
                     <h1 className="mb-5">User Register Page</h1>
                 </div>
 

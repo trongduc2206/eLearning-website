@@ -13,7 +13,7 @@ export default function Coursecart({ link, title, desc}) {
                         </video>
                     </div>
                     <div className="text-center p-4 pb-0">
-                        <h3 className="mb-0">{title}</h3>
+                        <p className="mb-0 fs-5 fw-bold">{title}</p>
                         <p className="mb-4">{desc}</p>
                     </div>
                 </div>

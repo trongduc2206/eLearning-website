@@ -21,9 +21,9 @@ export default function Slide() {
                 <div className="container">
                   <div className="row justify-content-start">
                     <div className="col-sm-10 col-lg-8">
-                      <h6 className="text-primary text-uppercase mb-2 animated slideInDown">
+                      <p className="text-primary text-uppercase mb-2 animated slideInDown">
                         Best Online Courses
-                      </h6>
+                      </p>
                       <h1 className="display-4 text-white animated slideInDown">
                         The Best Online Learning Platform
                       </h1>

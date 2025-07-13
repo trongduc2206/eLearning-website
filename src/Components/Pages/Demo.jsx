@@ -6,9 +6,9 @@ export default function Demo() {
       <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div className="container">
           <div className="text-center">
-            <h6 className="section-title bg-white text-center text-primary px-3">
+            <p className="section-title bg-white text-center text-primary px-3">
               Testimonial
-            </h6>
+            </p>
             <h1 className="mb-5">Our Students Say!</h1>
           </div>
 

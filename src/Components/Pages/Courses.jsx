@@ -50,9 +50,9 @@ export default function Cources() {
       <div className="container-xxl py-5 category">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">
+            <p className="section-title bg-white text-center text-dark px-3 fw-bold fs-5">
               Categories
-            </h6>
+            </p>
             <h1 className="mb-5">Courses Categories</h1>
           </div>
 
@@ -72,7 +72,7 @@ export default function Cources() {
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
                     >
-                      <h5 className="m-0">MERN Stack</h5>
+                      <p className="m-0 text-dark fw-bold fs-5">MERN Stack</p>
                       <small className="text-dark">4 Courses</small>
                     </div>
                   </Link>
@@ -90,7 +90,7 @@ export default function Cources() {
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
                     >
-                      <h5 className="m-0">Full Stack Web Devlopment</h5>
+                      <p className="m-0 text-dark fw-bold fs-5">Full Stack Web Devlopment</p>
                       <small className="text-dark">8 Courses</small>
                     </div>
                   </Link>
@@ -108,7 +108,7 @@ export default function Cources() {
                       className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                       style={{ margin: "1px" }}
                     >
-                      <h5 className="m-0">Programming Languages Tutorial</h5>
+                      <p className="m-0 text-dark fw-bold fs-5">Programming Languages Tutorial</p>
                       <small className="text-dark">4 Courses</small>
                     </div>
                   </Link>
@@ -134,7 +134,7 @@ export default function Cources() {
                   className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
                   style={{ margin: "1px" }}
                 >
-                  <h5 className="m-0">Online Marketing</h5>
+                  <p className="m-0 text-dark fw-bold fs-5">Online Marketing</p>
                   <small className="text-dark">1 Course</small>
                 </div>
               </a>
@@ -148,9 +148,9 @@ export default function Cources() {
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">
+            <p className="section-title bg-white text-center text-dark px-3 fs-5 fw-bold">
               Courses
-            </h6>
+            </p>
             <h1 className="mb-5">Popular Courses</h1>
           </div>
           <div className="row g-4 justify-content-center">

@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="container py-5">
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Quick Link</h4>
+              <p className="text-white mb-3 fs-4 fw-bold">Quick Link</p>
               <a className="btn btn-link" href>
                 About Us
               </a>
@@ -28,7 +28,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Contact</h4>
+              <p className="text-white mb-3 fs-4 fw-bold">Contact</p>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
                 Chennai, Tamil Nadu, India
@@ -73,7 +73,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Gallery</h4>
+              <p className="text-white mb-3 fs-4 fw-bold">Gallery</p>
               <div className="row g-2 pt-2">
                 <div className="col-4">
                   <img
@@ -120,7 +120,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Newsletter</h4>
+              <p className="text-white mb-3 fs-4 fw-bold">Newsletter</p>
               <p>
                 This website is a Final Year project of IT Department DSCET,
                 Chennai.

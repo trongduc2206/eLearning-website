@@ -6,9 +6,9 @@ export default function Team() {
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">
+            <p className="section-title bg-white text-center text-dark px-3 fw-bold">
               Instructors
-            </h6>
+            </p>
             <h1 className="mb-5">Expert Instructors</h1>
           </div>
           <div className="row g-4">
@@ -37,7 +37,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mr. John Deo</h5>
+                  <p className="mb-0 text-dark fw-bold fs-5">Mr. John Deo</p>
                   <small>MERN Stack Devloper</small>
                 </div>
               </div>
@@ -67,7 +67,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mrs. Shradha</h5>
+                  <p className="mb-0 text-dark fw-bold fs-5">Mrs. Shradha</p>
                   <small>Web Designer & Devloper</small>
                 </div>
               </div>
@@ -97,7 +97,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mr. Bobby Ficher</h5>
+                  <p className="mb-0 text-dark fw-bold fs-5">Mr. Bobby Ficher</p>
                   <small>Data Structure & Algorithms</small>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function Team() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Mrs. Manvi</h5>
+                  <p className="mb-0 text-dark fw-bold fs-5">Mrs. Manvi</p>
                   <small>C and C++</small>
                 </div>
               </div>
