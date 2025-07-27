@@ -33,7 +33,7 @@ jobs:
         uses: trongduc2206/accessibility-hub-runner@2c20526390447fd8026272d9e37561cc76373950
         with:
           url: 'http://localhost:4173'
-          service_id: 'elearning56285'
+          service_id: 'e-learning97434'
           tools: 'axe'
       - name: Stop Local Server
         run: pkill http-server || true
