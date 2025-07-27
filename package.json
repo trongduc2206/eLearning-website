@@ -8,9 +8,9 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview --host 0.0.0.0",
-    "accessibility": "docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=\"http://localhost:4173\" -e SERVICE_ID=\"elearning56285\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0",
-    "accessibility-prod-linux": "npm run build && npm run preview & sleep 5 && docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=\"http://localhost:4173\" -e SERVICE_ID=\"elearning56285\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0",
-    "accessibility-prod-win": "npm run build && start cmd /c \"npm run preview\" && timeout /t 5 && docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=http://localhost:4173 -e SERVICE_ID=elearning56285 -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0"
+    "accessibility": "docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=\"http://localhost:4173\" -e SERVICE_ID=\"e-learning97434\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0",
+    "accessibility-prod-linux": "npm run build && npm run preview & sleep 5 && docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=\"http://localhost:4173\" -e SERVICE_ID=\"e-learning97434\" -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0",
+    "accessibility-prod-win": "npm run build && start cmd /c \"npm run preview\" && timeout /t 5 && docker run --rm -p 4173:4173 --shm-size=1g -e TARGET_URL=http://localhost:4173 -e SERVICE_ID=e-learning97434 -e TOOL=axe -e AXE_MODE=all accessibility-hub-runner:3.0"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.2.4",

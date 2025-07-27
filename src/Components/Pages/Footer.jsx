@@ -48,6 +48,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <i className="fab fa-youtube" />
+                  <span className="sr-only">YouTube</span>
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
@@ -55,6 +56,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <i className="fab fa-facebook-f" />
+                  <span className="sr-only">Facebook</span>
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
@@ -62,6 +64,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <i className="fab fa-github" />
+                  <span className="sr-only">GitHub</span>
                 </a>
                 <a
                   className="btn btn-outline-light btn-social"
@@ -69,6 +72,7 @@ export default function Footer() {
                   target="_blank"
                 >
                   <i className="fab fa-linkedin-in" />
+                  <span className="sr-only">LinkedIn</span>
                 </a>
               </div>
             </div>
