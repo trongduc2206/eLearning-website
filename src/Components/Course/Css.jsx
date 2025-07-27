@@ -6,6 +6,7 @@ import Footer from '../Pages/Footer'
 export default function Css() {
     return (
         <>
+            <section>
             <Navbar />
             <div className="container-xxl py-5">
                 <div className="container">
@@ -21,6 +22,7 @@ export default function Css() {
                 </div>
             </div>
             <Footer />
+            </section>
         </>
     )
 }

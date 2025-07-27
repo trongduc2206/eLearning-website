@@ -3,6 +3,7 @@ import React from "react";
 export default function Team() {
   return (
     <>
+      <section aria-label="Team Section">
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -135,6 +136,7 @@ export default function Team() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

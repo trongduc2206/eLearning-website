@@ -6,6 +6,7 @@ import Coursecart from './Coursecart'
 export default function Dsa() {
     return (
         <>
+            <section>
             <Navbar />
 
             <div className="container-xxl py-5">
@@ -96,6 +97,7 @@ export default function Dsa() {
             </div>
 
             <Footer />
+            </section>
         </>
     )
 }

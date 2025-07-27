@@ -46,120 +46,121 @@ export default function Cources() {
   return (
     <>
       {/* *********** CATAGORY ************** */}
+      <section aria-label="Courses Category Section">
+        <div className="container-xxl py-5 category">
+          <div className="container">
+            <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <p className="section-title bg-white text-center text-dark px-3 fw-bold fs-5">
+                Categories
+              </p>
+              <h1 className="mb-5">Courses Categories</h1>
+            </div>
 
-      <div className="container-xxl py-5 category">
-        <div className="container">
-          <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <p className="section-title bg-white text-center text-dark px-3 fw-bold fs-5">
-              Categories
-            </p>
-            <h1 className="mb-5">Courses Categories</h1>
-          </div>
-
-          <div className="row g-3">
-            <div className="col-lg-7 col-md-6">
-              <div className="row g-3">
-                <div
-                  className="col-lg-12 col-md-12 wow zoomIn"
-                  data-wow-delay="0.1s"
-                >
-                  <Link
-                    className="position-relative d-block overflow-hidden"
-                    to="/courses/mern"
+            <div className="row g-3">
+              <div className="col-lg-7 col-md-6">
+                <div className="row g-3">
+                  <div
+                    className="col-lg-12 col-md-12 wow zoomIn"
+                    data-wow-delay="0.1s"
                   >
-                    <img className="img-fluid" src="/img/cat-1.jpg" alt="" />
-                    <div
-                      className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                      style={{ margin: "1px" }}
+                    <Link
+                      className="position-relative d-block overflow-hidden"
+                      to="/courses/mern"
                     >
-                      <p className="m-0 text-dark fw-bold fs-5">MERN Stack</p>
-                      <small className="text-dark">4 Courses</small>
-                    </div>
-                  </Link>
-                </div>
-                <div
-                  className="col-lg-6 col-md-12 wow zoomIn"
-                  data-wow-delay="0.3s"
-                >
-                  <Link
-                    className="position-relative d-block overflow-hidden"
-                    to="/courses/fullstack"
+                      <img className="img-fluid" src="/img/cat-1.jpg" alt="" />
+                      <div
+                        className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                        style={{ margin: "1px" }}
+                      >
+                        <p className="m-0 text-dark fw-bold fs-5">MERN Stack</p>
+                        <small className="text-dark">4 Courses</small>
+                      </div>
+                    </Link>
+                  </div>
+                  <div
+                    className="col-lg-6 col-md-12 wow zoomIn"
+                    data-wow-delay="0.3s"
                   >
-                    <img className="img-fluid" src="/img/cat-2.jpg" alt="" />
-                    <div
-                      className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                      style={{ margin: "1px" }}
+                    <Link
+                      className="position-relative d-block overflow-hidden"
+                      to="/courses/fullstack"
                     >
-                      <p className="m-0 text-dark fw-bold fs-5">Full Stack Web Devlopment</p>
-                      <small className="text-dark">8 Courses</small>
-                    </div>
-                  </Link>
-                </div>
-                <div
-                  className="col-lg-6 col-md-12 wow zoomIn"
-                  data-wow-delay="0.5s"
-                >
-                  <Link
-                    className="position-relative d-block overflow-hidden"
-                    to="/cources/programming"
+                      <img className="img-fluid" src="/img/cat-2.jpg" alt="" />
+                      <div
+                        className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                        style={{ margin: "1px" }}
+                      >
+                        <p className="m-0 text-dark fw-bold fs-5">Full Stack Web Devlopment</p>
+                        <small className="text-dark">8 Courses</small>
+                      </div>
+                    </Link>
+                  </div>
+                  <div
+                    className="col-lg-6 col-md-12 wow zoomIn"
+                    data-wow-delay="0.5s"
                   >
-                    <img className="img-fluid" src="/img/cat-3.jpg" alt="" />
-                    <div
-                      className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                      style={{ margin: "1px" }}
+                    <Link
+                      className="position-relative d-block overflow-hidden"
+                      to="/cources/programming"
                     >
-                      <p className="m-0 text-dark fw-bold fs-5">Programming Languages Tutorial</p>
-                      <small className="text-dark">4 Courses</small>
-                    </div>
-                  </Link>
+                      <img className="img-fluid" src="/img/cat-3.jpg" alt="" />
+                      <div
+                        className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                        style={{ margin: "1px" }}
+                      >
+                        <p className="m-0 text-dark fw-bold fs-5">Programming Languages Tutorial</p>
+                        <small className="text-dark">4 Courses</small>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div
-              className="col-lg-5 col-md-6 wow zoomIn"
-              data-wow-delay="0.7s"
-              style={{ minHeight: "350px" }}
-            >
-              <a
-                className="position-relative d-block h-100 overflow-hidden"
-                href
+              <div
+                className="col-lg-5 col-md-6 wow zoomIn"
+                data-wow-delay="0.7s"
+                style={{ minHeight: "350px" }}
               >
-                <img
-                  className="img-fluid position-absolute w-100 h-100"
-                  src="/img/cat-4.jpg"
-                  alt=""
-                  style={{ objectFit: "cover" }}
-                />
-                <div
-                  className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
-                  style={{ margin: "1px" }}
+                <a
+                  className="position-relative d-block h-100 overflow-hidden"
+                  href
                 >
-                  <p className="m-0 text-dark fw-bold fs-5">Online Marketing</p>
-                  <small className="text-dark">1 Course</small>
-                </div>
-              </a>
+                  <img
+                    className="img-fluid position-absolute w-100 h-100"
+                    src="/img/cat-4.jpg"
+                    alt=""
+                    style={{ objectFit: "cover" }}
+                  />
+                  <div
+                    className="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style={{ margin: "1px" }}
+                  >
+                    <p className="m-0 text-dark fw-bold fs-5">Online Marketing</p>
+                    <small className="text-dark">1 Course</small>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* ************** COURSES ***************/}
+        {/* ************** COURSES ***************/}
 
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <p className="section-title bg-white text-center text-dark px-3 fs-5 fw-bold">
-              Courses
-            </p>
-            <h1 className="mb-5">Popular Courses</h1>
-          </div>
-          <div className="row g-4 justify-content-center">
-            <Coursestructure data={obj1} />
-            <Coursestructure data={obj2} />
-            <Coursestructure data={obj3} />
+        <div className="container-xxl py-5">
+          <div className="container">
+            <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+              <p className="section-title bg-white text-center text-dark px-3 fs-5 fw-bold">
+                Courses
+              </p>
+              <h1 className="mb-5">Popular Courses</h1>
+            </div>
+            <div className="row g-4 justify-content-center">
+              <Coursestructure data={obj1} />
+              <Coursestructure data={obj2} />
+              <Coursestructure data={obj3} />
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

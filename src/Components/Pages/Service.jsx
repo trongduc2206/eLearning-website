@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Service() {
   return (
     <>
+    <section aria-label='Service Section'>
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-4">
@@ -54,6 +55,7 @@ export default function Service() {
           </div>
         </div>
       </div>
+      </section>
     </>
   )
 }

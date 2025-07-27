@@ -19,7 +19,7 @@ export default function Demo() {
             </div> */}
 
 
-
+            <section>
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -38,6 +38,7 @@ export default function Demo() {
                     </div>
                 </div>
             </div>
+            </section>
         </>
     )
 }

@@ -72,16 +72,18 @@ export default function FeedbackAll() {
               ></textarea>
               <label htmlFor="floatingInput">Comment</label>
             </div>
-            <div className="form-floating mb-3">
-              <input
-                type="text"
-                name="image"
-                class="form-control"
-                id="floatingInput"
-                placeholder="Enter Your Image URL"
-              />
-              <label htmlFor="floatingInput">Image Url</label>
-            </div>
+            <form>
+              <div className="form-floating mb-3">
+                <input
+                  type="text"
+                  name="image"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Enter Your Image URL"
+                />
+                <label htmlFor="floatingInput">Image Url</label>
+              </div>
+            </form>
             <Typography component="legend">Rating</Typography>
             <Rating
               name="simple-controlled"
@@ -90,9 +92,11 @@ export default function FeedbackAll() {
                 setValue(newValue);
               }}
             />
-            <div>
-              <input type="text" hidden name="rating" value={value} />
-            </div>
+            <form>
+              <div>
+                <input type="text" hidden name="rating" value={value} />
+              </div>
+            </form>
             <br></br>
             <button className="btn btn-primary">Submit</button>
             <hr />

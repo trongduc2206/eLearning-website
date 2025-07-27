@@ -33,6 +33,7 @@ export default function Contact() {
 
   return (
     <>
+    <section aria-label="Contact Section">
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -189,6 +190,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

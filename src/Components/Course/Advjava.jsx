@@ -6,6 +6,7 @@ import Coursecart from './Coursecart'
 export default function Advjava() {
     return (
         <>
+            <section>
             <Navbar />
             <div className="container-xxl py-5">
                 <div className="container">
@@ -21,6 +22,7 @@ export default function Advjava() {
                 </div>
             </div>
             <Footer />
+            </section>       
         </>
     )
 }

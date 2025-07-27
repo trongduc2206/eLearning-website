@@ -58,6 +58,7 @@ export default function Programming() {
   return (
     <>
       <Navbar />
+      <section aria-label="Programming Courses Section">
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -74,6 +75,7 @@ export default function Programming() {
           </div>
         </div>
       </div>
+      </section>
 
       <Footer />
     </>

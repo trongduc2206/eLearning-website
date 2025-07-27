@@ -3,6 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <>
+    <section aria-label="About Section">
       <div className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
@@ -78,6 +79,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

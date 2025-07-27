@@ -4,7 +4,13 @@ import Header from "./Header";
 export default function Testimonial() {
   return (
     <>
-      <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      {/* <div className="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s"> */}
+      <section
+  className="container-xxl py-5 wow fadeInUp"
+  data-wow-delay="0.1s"
+  role="region"
+  aria-label="Student testimonials"
+>
         <div className="container">
           <div className="text-center">
             <p className="section-title bg-white text-center text-dark px-3 fw-bold">
@@ -116,7 +122,8 @@ export default function Testimonial() {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
+      </section>
     </>
   );
 }
